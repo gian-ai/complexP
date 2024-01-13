@@ -1,2 +1,2 @@
 # complexP
-Toolbox 
+Generate a probability system.
