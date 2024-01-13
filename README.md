@@ -10,7 +10,8 @@ Components with exponentially decaying lifetimes:
     l:float, which stands for lambda and defines the rate of exponential decay.
 
 - Contains function:
-    self.p(t:float), which provides the probability of itself working at time t.
+
+      self.p(t:float), which provides the probability of itself working at time t.
 
 System:
 - Initialized with:
