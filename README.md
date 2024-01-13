@@ -5,7 +5,7 @@ The only dependency is numpy.
 
 Two classes are provided
 
-Components with exponentially decaying lifetimes:
+1. Components with exponentially decaying lifetimes:
 - Initialized with:
 
   l:float, which stands for lambda and defines the rate of exponential decay.
@@ -14,7 +14,7 @@ Components with exponentially decaying lifetimes:
 
   self.p(t:float), which provides the probability of itself working at time t.
 
-System:
+2. System:
 - Initialized with:
   
   componentsOrSubsystems:list, is a list of components or other systems which it connects.
