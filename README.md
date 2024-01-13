@@ -11,11 +11,11 @@ Components with exponentially decaying lifetimes:
 
 - Contains function:
 
-      self.p(t:float), which provides the probability of itself working at time t.
+  self.p(t:float), which provides the probability of itself working at time t.
 
 System:
 - Initialized with:
-    componentsOrSubsystems:list , is a list of components or other systems which it connects.
+    componentsOrSubsystems:list, is a list of components or other systems which it connects.
     parallel:bool, which states whether the connection is parallel
     series:bool, which states whether the conneciton is in series
   
