@@ -1,10 +1,11 @@
 # complexP
-Generate and work with a complex probability system that has components with an exponentially decaying lifetime.
+
+Pythonic and object-oriented way to create circuit-like complex probability systems and generate p probabilities at different t times.
 The only dependency is numpy.
 
 Two classes are provided
 
-Component:
+Components with exponentially decaying lifetimes:
 - Initialized with:
     l:float, which stands for lambda and defines the rate of exponential decay.
 - Contains function:
