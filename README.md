@@ -7,7 +7,8 @@ Two classes are provided
 
 Components with exponentially decaying lifetimes:
 - Initialized with:
-    l:float, which stands for lambda and defines the rate of exponential decay.
+
+  l:float, which stands for lambda and defines the rate of exponential decay.
 
 - Contains function:
 
@@ -15,9 +16,12 @@ Components with exponentially decaying lifetimes:
 
 System:
 - Initialized with:
-    componentsOrSubsystems:list, is a list of components or other systems which it connects.
-    parallel:bool, which states whether the connection is parallel
-    series:bool, which states whether the conneciton is in series
+  
+  componentsOrSubsystems:list, is a list of components or other systems which it connects.
+
+  parallel:bool, which states whether the connection is parallel
+
+  series:bool, which states whether the conneciton is in series
   
 - Contains functions:
 
