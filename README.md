@@ -1,5 +1,6 @@
 # complexP
 Generate and work with a complex probability system that has components with an exponentially decaying lifetime.
+The only dependency is numpy.
 
 Two classes are provided
 
